@@ -6,7 +6,7 @@ def convulucion(A,B):
     p=0
     d=0
     C=np.zeros((len(A)-2,len(A[0])-2))
-    while o<2:
+    while o<len(A)-2:
         if m==0 and o==0:    
             for i in range(len(A)-1):
                 for j in range(len(A[0])-1):
